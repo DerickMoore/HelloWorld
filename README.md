@@ -1,2 +1,3 @@
 # HelloWorld
-First Test GitHub repository
+#First Test GitHub repository
+print ("Hello, World")
