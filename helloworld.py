@@ -5,3 +5,4 @@ dm_hello("Hello, world again!")
 
 print("Second print")
 print("Change made locally under source control")
+print("Second change made through Visual Studio Code")
