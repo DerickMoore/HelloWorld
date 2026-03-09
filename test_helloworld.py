@@ -1,3 +1,4 @@
+"""Unit tests for helloworld module."""
 import unittest
 from io import StringIO
 import sys
@@ -49,7 +50,7 @@ class TestIsPrime(unittest.TestCase):
     def test_edge_case_two(self):
         """Two is the only even prime"""
         self.assertTrue(is_prime(2))
-        
+
     def test_even_numbers(self):
         """Even numbers > 2 are not prime"""
         self.assertFalse(is_prime(4))
