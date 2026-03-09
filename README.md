@@ -6,8 +6,9 @@ This project contains utility functions including a prime number checker and a h
 
 ## Files
 - `helloworld.py` - Main application with `is_prime()` and `dm_hello()` functions
-- `dmFunc.py` - Additional utility functions
+- `dm_func.py` - Additional utility functions
 - `test_helloworld.py` - Unit tests for the application
+- `.gitignore` - Excludes Python cache files and virtual environments from Git
 
 ## Running the Application
 To run the main application:
