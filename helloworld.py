@@ -1,13 +1,7 @@
 """Module for utility functions: hello world printer and prime number checker."""
+from dm_func import dm_hello
 
 
-def dm_hello(s):
-    """Print the given string to console.
-
-    Args:
-        s: String to print
-    """
-    print(s)
 
 
 dm_hello("Hello, world !")
