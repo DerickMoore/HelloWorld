@@ -1,11 +1,27 @@
+"""Module for utility functions: hello world printer and prime number checker."""
+
+
 def dm_hello(s):
+    """Print the given string to console.
+
+    Args:
+        s: String to print
+    """
     print(s)
 
 
 dm_hello("Hello, world !")
 
-#  create a function that works out if an interger parameter is prime or not  
+
 def is_prime(n):
+    """Check if a number is prime.
+
+    Args:
+        n: Integer to check
+
+    Returns:
+        True if n is prime, False otherwise
+    """
     if n <= 1:
         return False
     if n <= 3:
@@ -20,7 +36,7 @@ def is_prime(n):
     return True
 
 # test the function with some numbers
-print(is_prime(1))  # False     
+print(is_prime(1))  # False
 print(is_prime(2))  # True
 print(is_prime(3))  # True
 print(is_prime(4))  # False

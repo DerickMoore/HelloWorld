@@ -8,5 +8,3 @@ def dm_hello(s):
         s: String to print
     """
     print(s)
-
-    
