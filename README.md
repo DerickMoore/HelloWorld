@@ -3,6 +3,7 @@ First Test GitHub repository
 
 ## Overview
 This project contains utility functions including a prime number checker and a hello world printer.
+The pylint workflow has been added to this branch
 
 ## Files
 - `helloworld.py` - Main application with `is_prime()` and `dm_hello()` functions
